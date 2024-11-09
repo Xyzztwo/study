@@ -1,5 +1,10 @@
-j = 0
-while j < 5:
-    print("*" * 5, end="")
+i = 5
+while i > -1:
+    print("* ", end="")
+    j = 0
+    # while j < i 正三角
+    while j < i:
+        print("* ", end="")
+        j += 1
     print("")
-    j += 1
+    i -= 1
